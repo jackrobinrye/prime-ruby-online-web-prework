@@ -2,10 +2,10 @@
 def prime?(x)
   number_of_factors = 0 
   for n in 2..(x-1)
-    z = x % n 
-    if z > 0 
+    remainder = x % n 
+    if remainder == 0 
       number_of_factors += 1 
-    else 
+    else
       number_of_factors
     end
   end 
