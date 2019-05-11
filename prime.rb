@@ -9,9 +9,9 @@ def prime?(x)
       number_of_factors
     end
   end 
-  if number_of_factors > 0 
-    false 
-  else 
+  if number_of_factors == 0 
     true 
+  else 
+    false 
   end
 end
