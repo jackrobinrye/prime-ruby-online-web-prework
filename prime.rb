@@ -1,3 +1,4 @@
 # Add  code here!
 def prime?(x)
-  for n in x do
+  for n in 1..(x-1)
+  
